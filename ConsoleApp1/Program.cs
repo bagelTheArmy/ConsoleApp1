@@ -142,6 +142,10 @@ namespace Hello_World
                             {
                                 int num = number % 10;
                                 num += 1;
+                                if (num == 10)
+                                {
+                                    num = 0;
+                                }
                                 reversedString = reversedString + num.ToString();
                                 number = number / 10;
                             }
