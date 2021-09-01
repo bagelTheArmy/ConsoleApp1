@@ -47,7 +47,7 @@ namespace Hello_World
                 bool contains1Upper = false;
                 bool contains1Lower = false;
 
-                if (UserInputtedString == "Q")
+                if (UserInputtedString == "Q" || UserInputtedString == "q")
                 {
                     quit = true;
                 }
@@ -97,7 +97,7 @@ namespace Hello_World
                 Console.WriteLine("Enter a String between 8 to 20 characters");
                 string UserInputtedString = Console.ReadLine();
                 string newString = "";
-                if (UserInputtedString == "Q")
+                if (UserInputtedString == "Q" || UserInputtedString == "q")
                 {
                     quit = true;
                 }
@@ -126,7 +126,7 @@ namespace Hello_World
                 string UserInputtedString = Console.ReadLine();
                 string reversedString = "";
                 string newString = "";
-                if (UserInputtedString == "Q")
+                if (UserInputtedString == "Q" || UserInputtedString == "q")
                 {
                     quit = true;
                 }
